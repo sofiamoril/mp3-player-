@@ -1,0 +1,46 @@
+/* Zera as margens padrão do navegador e define a fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centraliza tudo perfeitamente na tela e define o fundo azul escuro */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+/* Estilização da caixinha do relógio */
+.clock {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 50px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Estilo do texto da Data */
+#date {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #00d2ff; /* Azul claro neon */
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto da Hora */
+#time {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(0, 210, 255, 0.6); /* Brilho azul na hora */
+}
